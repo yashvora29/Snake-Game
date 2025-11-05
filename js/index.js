@@ -1,6 +1,6 @@
 //game contstants and variables
 let inputDir={x:0,y:0};
-let speed=9;
+let speed=5;
 let lastPaintTime=0;
 let snakeArr=[{x:10,y:15}]
 food={x:6,y:7};
