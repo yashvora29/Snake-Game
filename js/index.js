@@ -1,6 +1,6 @@
 //game contstants and variables
 let inputDir={x:0,y:0};
-let speed=2;
+let speed=9;
 let lastPaintTime=0;
 let snakeArr=[{x:10,y:15}]
 food={x:6,y:7};
@@ -117,6 +117,7 @@ window.requestAnimationFrame(main);window.addEventListener('keydown', e => {
     switch(e.key){
         case "ArrowUp":
             console.log("ArrowUp");
+
             inputDir.x = 0;
             inputDir.y = -1;
             break;
