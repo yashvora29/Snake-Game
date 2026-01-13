@@ -36,12 +36,12 @@
 }
 #board{
     background:linear-gradient(rgb(142, 238, 142),yellow);
-    height: 72vmin;
-    width: 70vmin;
+    height: 92vmin;
+    width: 90vmin;
     border: 10px solid black;
     display: grid;
-    grid-template-rows: repeat(10,1fr);
-    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
 
 }
 .snakehead {
