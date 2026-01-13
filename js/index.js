@@ -28,7 +28,7 @@ function isCollide(snarr){
         }
     }
     //if you bump into wall
-    if(snarr[0].x>=18 || snarr[0].x<=0 || snarr[0].y>=18 || snarr[0].y<=0){
+    if(snarr[0].x>=10 || snarr[0].x<=0 || snarr[0].y>=10 || snarr[0].y<=0){
         return true;
     }
     return false;
